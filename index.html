@@ -21,24 +21,12 @@
 	<link href='http://fonts.googleapis.com/css?family=Noticia+Text:400,700' rel="stylesheet" type='text/css'>
 	<!-- js files & script -->
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="js/hover_pack.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
-				event.preventDefault();
-				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
-			});
-		});
-	</script>
+	<script type="text/javascript" src="js/hover_pack.js"></script>	
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
 	<script type="text/javascript" src="js/modernizr.js"></script>
 	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 	<script type="text/javascript" src="js/wow.min.js"></script>
-	<script>
-		new WOW().init();
-	</script>
-
 </head>
 
 <body>
@@ -72,17 +60,7 @@
 							<li><a href="#find" class="scroll"><strong>Encuéntranos</strong></a></li>
 							<li><a href="#contact" class="scroll"><strong>Contacto</strong></a></li>
 						</ul>
-					</nav>
-					<script type="text/javascript">
-						$(document).ready(function () {
-
-							$('#menu-toggle').click(function () {
-								$('#menu').toggleClass('open');
-								e.preventDefault();
-							});
-
-						});
-					</script>
+					</nav>					
 				</div>
 				<!-- End-top-nav -->
 			</div>
@@ -99,7 +77,7 @@
 		<div class="container-fluid">
 			<div class="row" id="about">
 				<div class="col-md-6 about_left">
-					<a href="#" class="button-one about_btn button-type-one button-box">About Us</a>
+					<a href="#" class="button-one about_btn button-type-one button-box">Sobre Nosotros</a>
 				</div>
 				<div class="col-md-6 about_right wow fadeInUp" data-wow-delay="0.0s">
 					<div class="about_text">
@@ -1117,6 +1095,30 @@
 			</div>
 		</div>
 	</section>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+
+	<script>
+		new WOW().init();
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+
+			$('#menu-toggle').click(function () {
+				$('#menu').toggleClass('open');
+				e.preventDefault();
+			});
+
+		});
+	</script>
 
 
 	<script type="text/javascript" charset="utf-8">
