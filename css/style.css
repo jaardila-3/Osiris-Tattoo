@@ -171,7 +171,7 @@ ul.nav-list li a:hover { color:#333333; border-bottom: 3px solid #000000; paddin
     width: 80%;
 }
 .about_text img {
-    margin: 90px auto 0;
+    margin: 20px auto 0;
 }
 .about_text img:hover{
 	transform: rotateY(360deg);
@@ -518,6 +518,14 @@ ul.social li a i.google {
 ul.social li a i.google:hover{
 	background-position:-14px -215px;
 }
+/*esta clase la creo alex*/
+ul.social li a i.whatsapp {
+	width: 35px;
+	height: 40px;
+	display: block;
+	background: url(../images/whatsapp.svg)no-repeat !important;
+}
+
 .team-grid-4{
 	background-image: url(../images/team-member-2.jpg);
 	background-size: cover;
@@ -561,73 +569,13 @@ ul.social li a i.google:hover{
     line-height: 20px;
     text-align: left;
 }
-/***--- Newsletter ---***/
-.newsletter_grid{
-	background:#f2efe5;
-	padding:8em 6em 0;
+.team-grid-6{
+	background-image: url(../images/team-local.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	min-height:505px;
-}
-.newsletter_grid h3 {
-	color: #000;
-	font-size: 1.1em;
-	text-transform: uppercase;
-}
-.newsletter-div {
-    display: block;
-	overflow: hidden;
-	width: 100%;
-}
-.newsletter {
-    display: block;
-    overflow: hidden;
-}
-.newsletter p{
-    text-align:center;
-}
-.newsletter input[type="text"] {
-	background-color: #ffffff;
-	transition: border-color 0.3s;
-	-o-transition: border-color 0.3s;
-	-ms-transition: border-color 0.3s;
-	-moz-transition: border-color 0.3s;
-	-webkit-transition: border-color 0.3s;
-	-webkit-appearance: none;
-	border:1px solid #000;
-	outline: none;
-	font-size: 13px;
-	padding: 12px;
-	color:#9a977a;
-	width:100%;
-	text-transform: uppercase;
-	display: block;
-	overflow: hidden;
-}
-.newsletter input[type="submit"] {
-	background: #9a977a;
-	text-transform: uppercase;
-	border: none;
-	padding: 12px;
-	cursor: pointer;
-	color: #FFF;
-	outline: none;
-	font-size: 15px;
 	text-align: center;
-	margin-top: 15px;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-	width: 100%;
-}
-.newsletter input[type="submit"]:hover{
-	background:#333333;
-}
-.newsletter_grid p{
-	color: #333;
-	font-size:0.85em;
-	text-transform: uppercase;
-	line-height:1.5em;
-	margin-bottom:3em;
 }
 /*--twitter--*/
 #twitter-section {
@@ -645,12 +593,6 @@ ul.social li a i.google:hover{
 	min-height:350px;
 	padding-top:7em;
 	text-align:center;
-}
-i.tw_icon{
-	width: 45px;
-	height: 40px;
-	display: inline-block;
-	background: url(../images/icons.png)no-repeat -89px -162px;
 }
 .twitter-div p {
     color: #f2efe5;
