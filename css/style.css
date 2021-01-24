@@ -858,6 +858,13 @@ ul.contact-social li a i.google {
 ul.contact-social li a i.google:hover{
 	background-position:-14px -215px;
 }
+/*esta clase la creo alex*/
+ul.contact-social li a i.whatsapp {
+	width: 35px;
+	height: 40px;
+	display: block;
+	background: url(../images/whatsapp.svg)no-repeat !important;
+}
 /***--- Map ---***/
 #map-section{
     display: block;
